@@ -1,0 +1,17 @@
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+.img-gal {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-auto-rows: 240px;
+}
+.grid-tall {
+  grid-row: sapn 2 / auto;
+}
+
+.grid-wide {
+  grid-column: span 2 / auto;
+}
